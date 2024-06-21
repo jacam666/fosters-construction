@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.frontPage-header {
+  font-family: 'DM Serif Text', serif;
+  font-weight: 900;
+}
+
+body {
+  background-image: url('/images/homepage-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
