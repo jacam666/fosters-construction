@@ -15,9 +15,15 @@
   background-image: url('/images/homepage-background-image.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: auto;
 }
 
+/* .navbar-background {
+  background-image: url('/images/homepage-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+} */
 
 
 
