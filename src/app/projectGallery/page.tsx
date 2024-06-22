@@ -168,7 +168,7 @@ export default function Gallery() {
 
     return (
         <div className="">
-            <div className='background'>
+            <div className='gallery-background'>
             <MyNavbar />
             </div>
             <div className=" ">
