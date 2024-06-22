@@ -13,12 +13,14 @@ import {
     MDBCollapse
 } from 'mdb-react-ui-kit'
 import Logo from './Logo';
+
+
 export default function MyNavbar() {
     const [openNavSecond, setOpenNavSecond] = useState(false)
     
     return (
         <MDBNavbar className='flex text-white' expand='lg'>
-            <MDBContainer fluid className=' navbar-items flex justify-end items-end text-2xl'>
+            <MDBContainer fluid className='text-xl'>
                 <MDBNavbarBrand>
                     <Logo />
                 </MDBNavbarBrand>
@@ -27,12 +29,10 @@ export default function MyNavbar() {
                     aria-label='Toggle navigation'
                     onClick={() => setOpenNavSecond(!openNavSecond)}
                 >
-                    {/* <MDBIcon icon='bars' fas className='bg-white' /> */}
-                    <i className="fas fa-bars bg-white"></i>
+                    <MDBIcon icon='bars' fas className='text-white text-4xl ml-auto' />
                 </MDBNavbarToggler>
-
-                <MDBCollapse navbar open={openNavSecond} className='flex justify-center mr-5'>
-                    <MDBNavbarNav  right fullWidth={false} className='mb-2 mb-lg-0'>
+                <MDBCollapse navbar open={openNavSecond} className='lg:flex lg:justify-end lg:mr-5 flex justify-start'>
+                    <MDBNavbarNav  right fullWidth={false} className=''>
                         <MDBNavbarLink className='text-white' active aria-current='page' href='/'>Home</MDBNavbarLink>
                         <MDBNavbarLink className='text-white' href='./'>About</MDBNavbarLink>
                         <MDBNavbarLink className='text-white' href='./'>Services</MDBNavbarLink>

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 .frontPage-header {
@@ -9,12 +10,15 @@
   font-weight: 900;
 }
 
-body {
+.background {
   background-image: url('/images/homepage-background-image.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
+
+
+
 
 
 
