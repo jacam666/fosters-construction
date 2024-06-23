@@ -12,7 +12,7 @@ export default function Footer() {
                 </div>
 
                 <div className=''>
-                    <Link href='' className=' me-4 text-reset text-2xl'>
+                    <Link href='https://www.facebook.com/people/Foster-Sons/100068109994876/' className=' me-4 text-reset text-2xl'>
                         <MDBIcon fab icon="facebook-f" className='text-[#4267B2]' />
                     </Link>
                     <Link href='' className='me-4 text-reset text-2xl'>

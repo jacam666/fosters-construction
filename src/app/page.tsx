@@ -22,7 +22,7 @@ export default function Home() {
             Reliable and efficient construction services for residential and commercial properties.
           </p>
           <div className=" text-center my-9">
-            <Link href='/' target='blank' rel='noopener noreferrer'>
+            <Link href='/projectGallery' target='blank' rel='noopener noreferrer'>
               <button
                 className='flex justify-center items-center  my-8 mx-auto px-4 py-2 rounded-lg  bg-gray-700  text-white font-bold text-xl'
               >
@@ -33,7 +33,6 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white h-full my-9 mx-3 ">
-
         <div className="sm:flex flex-row ">
           <div className="sm:flex sm:flex-col">
             <h3 className="font-bold sm:text-lg sm:mr-9">WHY CHOOSE US?</h3>
@@ -103,7 +102,7 @@ export default function Home() {
                 GET IN TOUCH
               </button>
             </Link>
-            <Link href='/' target='blank' rel='noopener noreferrer'>
+            <Link href='/projectGallery' target='blank' rel='noopener noreferrer'>
               <button
                 className='flex justify-center items-center my-1 mx-auto px-4 py-2 rounded-lg w-5/6 md:w-11/12  bg-gray-300  text-gray-700 font-bold text-xl'
               >
@@ -112,8 +111,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
-
       </div>
       <Footer />
     </div>

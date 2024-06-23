@@ -15,7 +15,7 @@ const customStyles = {
         transform: 'translate(-50%, -50%)',
         backgroundColor: 'transparent',
         border: 'none',
-        width: '90%'
+        width: '100%'
     },
     overlay: {
         backgroundColor: 'rgba(0, 0, 0, 0.75)'
@@ -159,7 +159,7 @@ export default function Gallery() {
                             <img 
                                 src={selectedImage} 
                                 alt="Selected" 
-                                className="w-5/6 h-3/4 lg:w-1/2 rounded-lg" />
+                                className="w-5/6  lg:w-1/2 rounded-lg" />
                             <button
                                 className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
                                 onClick={closeModal}
