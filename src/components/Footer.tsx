@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <MDBFooter className='background text-center h-auto'>
+        <MDBFooter className='gallery-background text-center h-auto'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 '>
                 <div className='me-5 d-none d-lg-block'>
                     <span className='text-white'>Get connected with us on social networks:</span>
@@ -49,7 +49,7 @@ export default function Footer() {
             <div className='text-center p-4 text-white' style={{ backgroundColor: 'rgba(0, 0, 0, 0.01)' }}>
                 © 2024 Copyright:
                 <Link className='text-reset fw-bold' href='#'>
-                    CamDesigns.com
+                    CamDesigns
                 </Link>
             </div>
         </MDBFooter>

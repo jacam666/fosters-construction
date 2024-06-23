@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <div className="background">
-        <div>
+        <div className=''>
           <MyNavbar />
         </div>
         <div className="flex justify-center">
@@ -21,12 +21,12 @@ export default function Home() {
           <p className="text-2xl text-gray-300 my-9  py-9 mx-auto xl:w-2/3">
             Reliable and efficient construction services for residential and commercial properties.
           </p>
-          <div className=" text-center my-9">
+          <div className=" text-center my-9 ">
             <Link href='/projectGallery' target='blank' rel='noopener noreferrer'>
               <button
-                className='flex justify-center items-center  my-8 mx-auto px-4 py-2 rounded-lg  bg-gray-700  text-white font-bold text-xl'
+                className='flex justify-center items-center my-8 mx-auto px-4 py-2 rounded-lg  bg-gradient from-gray-700 to gray-900  text-gray-100 font-bold text-xl hover:bg-white hover:text-black'
               >
-                OUR PROJECTS <IoIosArrowRoundForward className="text-4xl font-bold text-white" />
+                OUR PROJECTS <IoIosArrowRoundForward className="text-4xl font-bold text-gray-100 hover:bg-white hover:text-black" />
               </button>
             </Link>
           </div>

@@ -159,7 +159,7 @@ export default function Gallery() {
                             <img 
                                 src={selectedImage} 
                                 alt="Selected" 
-                                className="w-5/6  lg:w-1/2 rounded-lg" />
+                                className="w-5/6 h-3/4 lg:w-1/3 rounded-lg" />
                             <button
                                 className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
                                 onClick={closeModal}

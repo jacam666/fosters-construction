@@ -12,7 +12,6 @@ import {
     MDBIcon,
     MDBCollapse
 } from 'mdb-react-ui-kit'
-//import Logo from './Logo';
 
 
 export default function MyNavbar() {
@@ -39,11 +38,11 @@ export default function MyNavbar() {
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={openNavSecond} className='lg:flex lg:justify-end lg:mr-5 flex justify-start'>
                     <MDBNavbarNav right fullWidth={false} className=''>
-                        <MDBNavbarLink className='text-white' active aria-current='page' href='/'>Home</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white' href='./'>About</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white' href='./'>Services</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white' href='./projectGallery'>Gallery</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white' href='./'>Contact Us</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' active aria-current='page' href='/'>Home</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./'>About</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./'>Services</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./projectGallery'>Gallery</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./'>Contact Us</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>
