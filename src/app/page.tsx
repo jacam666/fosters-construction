@@ -12,7 +12,7 @@ export default function Home() {
           <MyNavbar />
         </div>
         <div className="flex justify-center">
-          <h1 className="frontPage-header text-white text-5xl mt-9 py-9 w-3/4 md:text-7xl xl:text-6xl text-center ">Foster & Sons Construction</h1>
+          <h1 className="frontPage-header text-white text-5xl mt-9 py-9 w-3/4 md:text-7xl xl:text-6xl text-center ">Foster &amp; Sons Construction</h1>
         </div>
         <div className="text-center my-9">
           <p className=" text-3xl lg:text-8xl text-white font-bold">
