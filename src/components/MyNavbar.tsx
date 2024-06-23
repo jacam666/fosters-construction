@@ -39,7 +39,7 @@ export default function MyNavbar() {
                 <MDBCollapse navbar open={openNavSecond} className='lg:flex lg:justify-end lg:mr-5 flex justify-start'>
                     <MDBNavbarNav right fullWidth={false} className=''>
                         <MDBNavbarLink className='text-white hover:underline' active aria-current='page' href='/'>Home</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./'>About</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./about'>About</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./'>Services</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./projectGallery'>Gallery</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./'>Contact Us</MDBNavbarLink>
