@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div>
       <div className="background">
-        <div className=''>
           <MyNavbar />
-        </div>
         <div className="flex justify-center">
           <h1 className="frontPage-header text-white text-5xl mt-9 py-9 w-3/4 md:text-7xl xl:text-6xl text-center ">Foster &#38; Sons Construction</h1>
         </div>

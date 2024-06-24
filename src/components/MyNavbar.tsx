@@ -42,7 +42,7 @@ export default function MyNavbar() {
                         <MDBNavbarLink className='text-white hover:underline' href='./about'>About</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./'>Services</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./projectGallery'>Gallery</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./'>Contact Us</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./contactUs'>Contact Us</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>

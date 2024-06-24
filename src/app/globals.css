@@ -37,6 +37,34 @@
   padding: 0.75rem 1rem;
 }
 
+.contact-container {
+  padding: 2rem;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.contact-details {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+/* .contact-header {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #333;
+} */
+.contact-section {
+  padding: 1rem 2rem;
+}
 
 
 
