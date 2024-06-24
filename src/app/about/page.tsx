@@ -12,15 +12,15 @@ const About: NextPage = () => {
             <div className="min-h-screen bg-gray-100 py-10 px-5">
                 <div className=" mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
                     <div className="p-6">
-                        <h1 className="text-4xl font-bold mb-4 text-gray-800">About Foster &amp; Sons</h1>
+                        <h1 className="text-4xl font-bold mb-4 text-gray-800">About Foster &#38; Sons</h1>
                         <p className="text-gray-600 mb-4">
-                            Foster &amp; Sons is a family-owned construction company with years of experience in the industry. Our mission is to deliver high-quality construction services with a focus on customer satisfaction and sustainable practices.
+                            Foster &#38; Sons is a family-owned construction company with years of experience in the industry. Our mission is to deliver high-quality construction services with a focus on customer satisfaction and sustainable practices.
                         </p>
                         <p className="text-gray-600 mb-4">
                             We specialize in residential and commercial construction, offering a wide range of services from new builds to renovations and everything in between. Our team of skilled professionals is dedicated to ensuring that every project is completed on time, within budget, and to the highest standards of quality.
                         </p>
                         <p className="text-gray-600 mb-4">
-                            At Foster &amp; Sons, we believe in building lasting relationships with our clients based on trust, transparency, and excellence. We take pride in our work and are committed to creating spaces that our clients will love for years to come.
+                            At Foster &#38; Sons, we believe in building lasting relationships with our clients based on trust, transparency, and excellence. We take pride in our work and are committed to creating spaces that our clients will love for years to come.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-6 mb-4 text-gray-800">Our Values</h2>
