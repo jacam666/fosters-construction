@@ -55,7 +55,7 @@ const About: NextPage = () => {
                         </p>
                         <h2 className="text-2xl font-bold mt-6 mb-4 text-gray-800">Contact Us</h2>
                         <p className="text-gray-600">
-                            If you have any questions or would like to learn more about our services, please don't hesitate to contact us. We look forward to working with you on your next construction project.
+                            If you have any questions or would like to learn more about our services, please don&#8242;t hesitate to contact us. We look forward to working with you on your next construction project.
                         </p>
                     </div>
                 </div>
