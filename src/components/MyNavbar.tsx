@@ -40,7 +40,7 @@ export default function MyNavbar() {
                     <MDBNavbarNav right fullWidth={false} className=''>
                         <MDBNavbarLink className='text-white hover:underline' active aria-current='page' href='/'>Home</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./about'>About</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./'>Services</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white hover:underline' href='./services'>Services</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./projectGallery'>Gallery</MDBNavbarLink>
                         <MDBNavbarLink className='text-white hover:underline' href='./contactUs'>Contact Us</MDBNavbarLink>
                     </MDBNavbarNav>

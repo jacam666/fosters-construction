@@ -2,6 +2,7 @@
 
 import Footer from '@/components/Footer';
 import MyNavbar from '@/components/MyNavbar';
+import { NextPage } from 'next';
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 
@@ -22,7 +23,7 @@ const customStyles = {
     }
 };
 
-export default function Gallery() {
+const Gallery: NextPage= () => {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [selectedImage, setSelectedImage] = useState('');
 
@@ -70,8 +71,8 @@ export default function Gallery() {
             <div className='gallery-background'>
             <MyNavbar />
             </div>
-            <div className="bg-gray-200 pb-4">
-                <h1 className="frontPage-header text-6xl p-9 lg:text-7xl  text-gray-800 text-center">Gallery</h1>
+            <div className=" pb-4">
+                <h1 className="frontPage-header text-6xl p-9  text-gray-800 text-center">Gallery</h1>
                 <div className="container mx-auto sm:px-5 py-2 lg:px-32 lg:pt-12">
                     <div className="-m-1 flex flex-wrap md:-m-2">
                         <div className="flex w-1/2 flex-wrap">
@@ -174,3 +175,5 @@ export default function Gallery() {
         </div>
     );
 }
+
+export default Gallery;

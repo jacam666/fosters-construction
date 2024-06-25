@@ -5,8 +5,9 @@ import MyNavbar from "@/components/MyNavbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { MDBIcon } from 'mdb-react-ui-kit';
+import { NextPage } from 'next';
 
-const ContactPage = () => {
+const ContactPage: NextPage = () => {
     return (
         <div>
             <div className='gallery-background'>
