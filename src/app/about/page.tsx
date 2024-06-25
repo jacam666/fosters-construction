@@ -9,11 +9,11 @@ const About: NextPage = () => {
             <div className="gallery-background">
                 <MyNavbar />
             </div>
-            <div className="min-h-screen bg-gray-100 py-10 px-5">
-                <div className=" mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="min-h-screen py-10 px-5">
+                <div className=" mx-auto bg-white shadow-md rounded-lg overflow-hidden">
                     <div className="p-6">
                         <h1 className="frontPage-header text-4xl font-bold mb-4 text-gray-800">About Foster &#38; Sons</h1>
-                        <div className="rounded-lg shadow-md bg-gray-100 p-2 lg:p-8">
+                        <div className="rounded-lg shadow-md p-2 lg:p-8">
                             <p className="text-gray-600 mb-4">
                                 Foster &#38; Sons is a family-owned construction company with years of experience in the industry. Our mission is to deliver high-quality construction services with a focus on customer satisfaction and sustainable practices.
                             </p>
@@ -25,7 +25,7 @@ const About: NextPage = () => {
                             </p>
                         </div>
                         <h2 className="text-2xl font-bold mt-6 mb-4 text-gray-800">Our Values</h2>
-                        <div className="rounded-lg shadow-md bg-gray-100 p-4">
+                        <div className="rounded-lg shadow-md  p-4">
                             <div className="flex flex-col  xl:flex-row ">
                                 <ul className="list-disc list-inside text-gray-600 mb-4 ">
                                     <li>Integrity: We operate with honesty and adhere to the highest ethical standards.</li>
@@ -53,13 +53,13 @@ const About: NextPage = () => {
                             </div>
                         </div>
                         <h2 className="text-2xl font-bold mt-6 mb-4 text-gray-800">Our Team</h2>
-                        <div className="rounded-lg shadow-md bg-gray-100 p-2 lg:p-6">
+                        <div className="rounded-lg shadow-md  p-2 lg:p-6">
                             <p className="text-gray-600">
                                 Our team consists of skilled professionals with construction expertise who are enthusiastic and committed to delivering outstanding service. The expertise of our skilled tradespeople is essential in guaranteeing the triumphant completion of our projects.
                             </p>
                         </div>
                         <h2 className="text-2xl font-bold mt-6 mb-4 text-gray-800">Contact Us</h2>
-                        <div className="rounded-lg shadow-md bg-gray-100 p-2 lg:p-6">
+                        <div className="rounded-lg shadow-md  p-2 lg:p-6">
                             <p className="text-gray-600">
                                 If you have any questions or would like to learn more about our services, please don&#8242;t hesitate to contact us. We look forward to working with you on your next construction project.
                             </p>

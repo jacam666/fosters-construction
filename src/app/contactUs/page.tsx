@@ -13,7 +13,7 @@ const ContactPage: NextPage = () => {
             <div className='gallery-background'>
             <MyNavbar />
             </div>
-            <div className="contact-container bg-gray-200 text-gray-900">
+            <div className="contact-container text-gray-900">
                     <h1 className="frontPage-header text-6xl p-9 lg:text-7xl  text-gray-800 text-center">Contact Us</h1>
                 <div className="map-container">
                     <iframe
@@ -24,8 +24,8 @@ const ContactPage: NextPage = () => {
                     ></iframe>
                 </div>
 
-                <div className="contact-section bg-gray-100 rounded-lg shadow-md">
-                    <h2 className="contact-header mb-4">Get in Touch</h2>
+                <div className="contact-section rounded-lg shadow-md">
+                    <h2 className="contact-header mb-4 p-2">Get in Touch</h2>
                     <div className="contact-details">
                         <p className="mb-2">
                             <MDBIcon icon="home" className="me-2" /> Milton Keynes, Buckinghamshire
@@ -39,8 +39,8 @@ const ContactPage: NextPage = () => {
                     </div>
                 </div>
 
-                <div className="contact-section bg-gray-100 rounded-lg shadow-md mt-8">
-                    <h2 className="contact-header mb-4">Connect with Us</h2>
+                <div className="contact-section rounded-lg shadow-md mt-8">
+                    <h2 className="contact-header mb-4 p-2">Connect with Us</h2>
                     <div className="social-icons">
                         <Link href="https://www.facebook.com/people/Foster-Sons/100068109994876/">
                             <MDBIcon fab icon="facebook-f" className="text-[#4267B2]" />
