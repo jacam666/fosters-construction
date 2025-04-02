@@ -23,7 +23,7 @@ const services = [
 
     },
     {
-        icon: <FaHome className='text-sky-900' />, 
+        icon: <FaHome className='text-sky-900' />,
         title: "Roofing",
         description: "Our expert team offers secure roofing services to protect your home from all weather conditions.",
         image: "/images/galleryImages/galleryimage17.jpg"
@@ -57,13 +57,15 @@ const ServicesPage: NextPage = () => {
                 <MyNavbar />
             </div>
             <div className="container mx-auto  py-8">
-                <h1 className=" text-center text-6xl text-gray-900 font-bold py-8">Our Services</h1>
-                <div className="services-grid my-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <h1 className=" text-center text-6xl text-gray-900 font-bold ">Our Services</h1>
+                <div className="services-grid my-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
                     {services.map((service, index) => (
-                        <div key={index} className="service-card mb-4 shadow-md p-6 text-center rounded-md flex flex-col justify-between">
-                            <div className="service-icon text-5xl mb-4">{service.icon}</div>
-                            <h2 className="font-bold text-4xl text-gray-900 md:text-5xl">{service.title}</h2>
-                            <p className="text-gray-900 md:text-2xl mt-4">{service.description}</p>
+                        <div key={index} className="service-card shadow-md p-4 text-center rounded-md flex flex-col justify-between ">
+                            <div className='flex justify-evenly'>
+                                <div className="service-icon text-5xl mb-4">{service.icon}</div>
+                                <h2 className="font-bold text-4xl text-gray-900 ">{service.title}</h2>
+                            </div>
+                            <p className="text-gray-900 text-xl md:text-2xl mt-4">{service.description}</p>
                             <Image
                                 src={service.image || "/images/defaultImage.jpg"}
                                 alt={service.title}

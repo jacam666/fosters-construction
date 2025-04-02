@@ -38,11 +38,11 @@ export default function MyNavbar() {
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={openNavSecond} className='lg:flex lg:justify-end lg:mr-5 flex justify-start'>
                     <MDBNavbarNav right fullWidth={false} className=''>
-                        <MDBNavbarLink className='text-white hover:underline' active aria-current='page' href='/'>Home</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./about'>About</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./services'>Services</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./projectGallery'>Gallery</MDBNavbarLink>
-                        <MDBNavbarLink className='text-white hover:underline' href='./contactUs'>Contact Us</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white font-bold hover:underline' active aria-current='page' href='/'>Home</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white font-bold hover:underline' href='./about'>About</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white font-bold hover:underline' href='./services'>Services</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white font-bold hover:underline' href='./projectGallery'>Gallery</MDBNavbarLink>
+                        <MDBNavbarLink className='text-white font-bold hover:underline' href='./contactUs'>Contact Us</MDBNavbarLink>
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBContainer>

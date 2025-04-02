@@ -7,16 +7,16 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 export default function Home() {
   return (
     <div>
-      <div className="background  opacity-95">
+      <div className="background ">
         <MyNavbar />
         <div className="flex justify-center">
-          <h1 className=" text-white text-5xl mt-9 py-9 w-3/4  xl:text-7xl text-center ">Foster &#38; Sons Construction</h1>
+          <h1 className=" text-white text-3xl mt-9 py-9 w-3/4 font-bold lg:text-5xl  xl:text-6xl text-center ">Foster &#38; Sons Construction</h1>
         </div>
         <div className="text-center my-9">
-          <h1 className="font-sans text-3xl lg:text-8xl text-white font-bold">
+          <h1 className="font-sans text-4xl lg:text-7xl text-white font-bold">
             BUILDING YOUR DREAMS
           </h1>
-          <p className="font-sans text-2xl lg:text-3xl text-white my-9 mx-4 py-9 xl:w-2/3">
+          <p className="font-sans text-2xl lg:text-3xl font-bold text-white my-9 px-4  mx-auto py-9 xl:w-2/3">
             Reliable and efficient construction services for residential and commercial properties.
           </p>
           <div className=" text-center my-9 ">
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white h-full my-9 mx-3 ">
-      <h3 className="font-bold sm:text-3xl ">Why Choose Us?</h3>
+      <h3 className="font-bold sm:text-3xl text-gray-900 ">Why Choose Us?</h3>
       <div className=" h-1 w-1/2 md:w-1/4 bg-black mt-4 mb-8"></div>
         <div className="sm:flex flex-row ">
           <div className="sm:flex sm:flex-col">
@@ -43,8 +43,9 @@ export default function Home() {
                 alt="Why Choose Us"
                 width={1000}
                 height={500}
+                className="rounded-lg"
               />
-              <h2 className="font-anton font-bold mt-2 sm:text-3xl">
+              <h2 className="font-anton font-bold mt-2 text-gray-900 sm:text-3xl">
                 High Quality Materials
               </h2>
               <p className="mb-5 text-lg sm:text-xl text-gray-900">
@@ -57,22 +58,24 @@ export default function Home() {
                 alt="Why Choose Us"
                 width={1000}
                 height={500}
+                className="rounded-lg"
               />
-              <h2 className="font-anton font-bold mt-2 sm:text-3xl">
+              <h2 className="font-anton font-bold text-gray-900 mt-2 sm:text-3xl">
                 Experienced Team
               </h2>
               <p className="mb-5 text-lg sm:text-xl text-gray-900">
                 Our team has years of experience in the construction industry.
               </p>
             </div>
-            <div className="mx-2 text-center">
+            <div className="mx-2 text-center ">
               <Image
                 src="/images/homeimage-3.jpg"
                 alt="Why Choose Us"
                 width={1000}
                 height={500}
+                className="rounded-lg"
               />
-              <h2 className="font-anton font-bold mt-2 sm:text-3xl">
+              <h2 className="font-anton font-bold mt-2 sm:text-3xl text-gray-900">
                 Timely Completion
               </h2>
               <p className="mb-5 text-lg sm:text-xl text-gray-900">
@@ -85,24 +88,24 @@ export default function Home() {
         {/* <div className="bg-gray-700 text-gray-200 rounded">
           <p className="p-5 text-2xl md:text-4xl lg:px-9">Foster & Sons are dedicated to delivering top-notch construction services for both residential and commercial clients. With years of industry experience, we guarantee professional, efficient, and reliable service tailored to your specific needs.</p>
         </div> */}
-        <div className="flex flex-col bg-sky-900 text-gray-200 p-4 rounded">
+        <div className="flex flex-col bg-gradient-to-r from-gray-700 to-gray-900 text-gray-200 p-4 rounded-lg">
           <h1 className="text-4xl text-center font-bold text-white my-3">
             READY TO BUILD?
           </h1>
-          <p className="text-xl text-center md:text-3xl py-4">
+          <p className="text-xl text-white text-center md:text-3xl py-4">
             Contact us today to start your construction project and turn your vision into reality.
           </p>
           <div className=" flex flex-row justify-center  w-full text-center my-6">
             <Link href='/contactUs' target='blank' rel='noopener noreferrer'>
               <button
-                className='  sm:mx-6 mx-2 px-3 py-2 rounded-lg bg-sky-400  text-gray-900 font-bold text-xl hover:bg-sky-600 hover:text-white'
+                className='  sm:mx-6 mx-2 px-3 py-2 rounded-lg bg-gradient-to-l from-gray-700 to-gray-900  text-white font-bold text-xl hover:bg-indigo-950 hover:bg-none hover:text-black transition-colors duration-300 ease-in-out'
               >
                 Contact Us
               </button>
             </Link>
             <Link href='/projectGallery' target='blank' rel='noopener noreferrer'>
               <button
-                className='sm:mx-6 mx-2 px-3 py-2 rounded-lg bg-sky-400 text-gray-900 font-bold text-xl hover:bg-sky-600 hover:text-white '
+                className='sm:mx-6 mx-2 px-3 py-2 rounded-lg bg-gradient-to-l from-gray-700 to-gray-900 text-white font-bold text-xl hover:bg-indigo-950 hover:bg-none hover:text-black transition-colors duration-300 ease-in-out'
               >
                 Our Projects
                 {/* Our Projects <IoIosArrowRoundForward className="text-4xl font-bold text-gray-700" /> */}
