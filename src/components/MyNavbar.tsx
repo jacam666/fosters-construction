@@ -19,7 +19,7 @@ export default function MyNavbar() {
 
     return (
         <MDBNavbar className='flex text-white' expand='lg'>
-            <MDBContainer fluid className='text-xl'>
+            <MDBContainer fluid className='text-xl my-0'>
                 <MDBNavbarBrand href='/'>
                 <img
                     src="/images/foster-and-sons-logo-removebg.png"

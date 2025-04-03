@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: center;
   /* min-height: 100vh; */
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 }
 .gallery-background {
   background-image: url('/images/homepage-background-image.jpg');
