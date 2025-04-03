@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import MyNavbar from "@/components/MyNavbar";
+import Slider from "@/components/RatingsSlider";
 import { NextPage } from "next";
 import Image from "next/image";
 
@@ -67,6 +68,7 @@ const About: NextPage = () => {
                     </div>
                 </div>
             </div>
+            <Slider />
             <Footer />
 
         </div>

@@ -6,15 +6,16 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import { MDBIcon } from 'mdb-react-ui-kit';
 import { NextPage } from 'next';
+//import Slider from '@/components/RatingsSlider';
 
 const ContactPage: NextPage = () => {
     return (
         <div>
             <div className='gallery-background'>
-            <MyNavbar />
+                <MyNavbar />
             </div>
             <div className="contact-container text-gray-900">
-                    <h1 className="frontPage-header text-6xl p-9 lg:text-7xl  text-gray-800 text-center">Contact Us</h1>
+                <h1 className="frontPage-header text-6xl p-9 lg:text-7xl  text-gray-800 text-center">Contact Us</h1>
                 <div className="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.22219115099!2d-0.909866747581021!3d52.04062234473852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877b1cba1e22e65%3A0x4575d0c3b5ffb3b5!2sMilton%20Keynes%2C%20UK!5e0!3m2!1sen!2sin!4v1614165949845!5m2!1sen!2sin"
@@ -34,9 +35,12 @@ const ContactPage: NextPage = () => {
                             <MDBIcon icon="phone" className="me-2" /> 07444 365428
                         </p>
                         <p className="mb-2">
-                            <MDBIcon icon="envelope" className="me-2" /> info@foster &#38; Sons.com
+                            <MDBIcon icon="envelope" className="me-2" /> info@foster&#38;Sons.com
                         </p>
                     </div>
+                </div>
+                <div className=''>
+                    
                 </div>
 
                 <div className="contact-section rounded-lg shadow-md mt-8">
@@ -54,6 +58,7 @@ const ContactPage: NextPage = () => {
                         </Link>
                     </div>
                 </div>
+
             </div>
             <Footer />
         </div>
