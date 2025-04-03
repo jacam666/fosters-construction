@@ -9,8 +9,8 @@ const About: NextPage = () => {
     return (
         <div className="  min-h-screen">
             <div className="gallery-background">
-//                 <MyNavbar />
-//             </div>
+                <MyNavbar />
+            </div>
             <div className="max-w-6xl mx-auto py-12 px-4">
                 <div className="text-center ">
                     <h1 className="text-4xl lg:text-5xl font-bold text-gray-900">About Foster &#38; Sons</h1>
