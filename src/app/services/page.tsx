@@ -60,7 +60,7 @@ const ServicesPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                            <div className="relative w-full h-48">
+                            <div className="relative w-full h-60">
                                 <Image
                                     src={service.image}
                                     alt={service.title}
