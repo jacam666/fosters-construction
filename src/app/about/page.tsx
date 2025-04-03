@@ -40,14 +40,14 @@ const About: NextPage = () => {
                             className="rounded-xl object-cover shadow-lg"
                         />
                         <Image
-                            src="/images/galleryImages/galleryimage11.jpg"
+                            src="/images/galleryImages/galleryimage3.jpg"
                             alt="About Us"
                             width={600}
                             height={400}
                             className="rounded-xl object-cover shadow-lg"
                         />
                         <Image
-                            src="/images/galleryImages/galleryimage12.jpg"
+                            src="/images/galleryImages/galleryimage7.jpg"
                             alt="About Us"
                             width={600}
                             height={400}
