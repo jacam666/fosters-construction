@@ -14,7 +14,7 @@ const ContactPage: NextPage = () => {
             <div className="gallery-background">
                 <MyNavbar />
                 <header className="text-center py-20 px-4 min-h-[60vh] flex flex-col justify-center items-center">
-                    <h1 className="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 bg-clip-text text-transparent mb-6 drop-shadow-lg">
+                    <h1 className="text-white text-6xl md:text-7xl font-extrabold mb-6 drop-shadow-lg">
                         Get In Touch
                     </h1>
                     <div className="w-24 h-1 bg-gradient-to-r from-sky-500 to-blue-600 mx-auto mb-6"></div>
