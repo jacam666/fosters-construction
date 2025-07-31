@@ -146,7 +146,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-700 mb-4 italic">"{review.review}"</p>
+              <p className="text-gray-700 mb-4 italic">{"review.review"}</p>
               <div>
                 <p className="font-semibold text-gray-900">{review.name}</p>
                 <p className="text-sm text-gray-600">{review.project}</p>
@@ -162,7 +162,7 @@ export default function Home() {
             Ready to Build Your Dream?
           </h3>
           <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-            Contact us today for a free consultation and quote. Let's discuss how we can 
+            Contact us today for a free consultation and quote. Let&apos;s discuss how we can 
             bring your construction vision to life with our expertise and dedication.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
