@@ -146,7 +146,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-700 mb-4 italic">{"review.review"}</p>
+              <p className="text-gray-700 mb-4 italic">{review.review}</p>
               <div>
                 <p className="font-semibold text-gray-900">{review.name}</p>
                 <p className="text-sm text-gray-600">{review.project}</p>
